@@ -67,6 +67,10 @@ runtime! configs/plug_cfg/vim-mustache-handlebars.vim
 Plug 'kchmck/vim-coffee-script'
 runtime! configs/plug_cfg/vim-coffee-script.vim
 
+" https://github.com/posva/vim-vue
+" vue component syntax highlighting
+Plug 'posva/vim-vue'
+
 " https://github.com/mileszs/ack.vim
 " ag searching in vim
 Plug 'mileszs/ack.vim'

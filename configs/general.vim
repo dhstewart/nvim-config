@@ -103,3 +103,9 @@ au BufRead,BufNewFile {Gemfile,Rakefile,Vagrantfile,Thorfile,config.ru} set ft=r
 
 " JSON is JS
 au BufNewFile,BufRead *.json set ai filetype=javascript
+
+" 80 columns please
+set colorcolumn=80
+
+" Turn off visual bells
+set t_vb=
