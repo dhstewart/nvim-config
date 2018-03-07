@@ -17,6 +17,11 @@ Plug 'tpope/vim-endwise'
 " Git integration
 Plug 'tpope/vim-fugitive'
 
+" https://github.com/tpope/vim-rhubarb
+" Browse files on Github
+Plug 'tpope/vim-rhubarb'
+
+
 " https://github.com/tpope/vim-rake
 " rake + vim
 Plug 'tpope/vim-rake'
