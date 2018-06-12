@@ -119,6 +119,9 @@ runtime! configs/plug_cfg/vim-surround.vim
 Plug 'digitaltoad/vim-pug'
 runtime! configs/plug_cfg/vim-pug.vim
 
+" https://github.com/rust-lang/rust.vim
+" RUST highlighting
+Plug 'rust-lang/rust.vim'
 
 
 call plug#end()

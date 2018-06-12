@@ -109,3 +109,8 @@ set colorcolumn=80
 
 " Turn off visual bells
 set t_vb=
+
+" Don't fold so crazy
+" http://vim.wikia.com/wiki/All_folds_open_when_opening_a_file
+set foldlevelstart=20
+
