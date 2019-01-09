@@ -53,7 +53,6 @@ runtime! configs/plug_cfg/supertab.vim
 " https://github.com/ctrlpvim/ctrlp.vim
 " fuzzy file finding
 Plug 'ctrlpvim/ctrlp.vim'
-runtime! configs/plug_cfg/ctrlp.vim
 
 " https://github.com/slim-template/vim-slim
 " slim template syntax highlighting
@@ -130,6 +129,7 @@ Plug 'rust-lang/rust.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
+runtime! configs/plug_cfg/fzf.vim
 
 " dracula theme
 " https://draculatheme.com/vim/
