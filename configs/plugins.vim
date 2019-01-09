@@ -21,7 +21,6 @@ Plug 'tpope/vim-fugitive'
 " Browse files on Github
 Plug 'tpope/vim-rhubarb'
 
-
 " https://github.com/tpope/vim-rake
 " rake + vim
 Plug 'tpope/vim-rake'
@@ -33,6 +32,10 @@ Plug 'tpope/vim-repeat'
 " https://github.com/tpope/vim-abolish
 " lots of helper utilities for text manipulation
 Plug 'tpope/vim-abolish'
+
+" https://github.com/tpope/vim-unimpaired
+" insert empty lines with ease
+Plug 'tpope/vim-unimpaired'
 
 " https://github.com/vim-ruby/vim-ruby
 " editing/compiling ruby in vim
@@ -123,5 +126,13 @@ runtime! configs/plug_cfg/vim-pug.vim
 " RUST highlighting
 Plug 'rust-lang/rust.vim'
 
+" fzf
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug '/usr/local/opt/fzf'
+Plug 'junegunn/fzf.vim'
+
+" dracula theme
+" https://draculatheme.com/vim/
+Plug 'dracula/vim', { 'as': 'dracula' }
 
 call plug#end()

@@ -1,3 +1,12 @@
+" Switch between the last two files
+nnoremap <leader><leader> <c-^>
+
+" Quicker window movement
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-h> <C-w>h
+nnoremap <C-l> <C-w>l
+
 " easy wrap toggling
 nmap <Leader>w :set wrap!<cr>
 nmap <Leader>W :set nowrap<cr>
