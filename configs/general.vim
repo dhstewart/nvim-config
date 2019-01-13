@@ -114,3 +114,6 @@ set t_vb=
 " http://vim.wikia.com/wiki/All_folds_open_when_opening_a_file
 set foldlevelstart=20
 
+" This will check the current folder for tags file and keep going one directory
+" up all the way to the root folder.
+set tags=tags;/
