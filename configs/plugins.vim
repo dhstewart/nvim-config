@@ -50,10 +50,6 @@ Plug 'vim-airline/vim-airline'
 Plug '/ervandew/supertab'
 runtime! configs/plug_cfg/supertab.vim
 
-" https://github.com/ctrlpvim/ctrlp.vim
-" fuzzy file finding
-Plug 'ctrlpvim/ctrlp.vim'
-
 " https://github.com/slim-template/vim-slim
 " slim template syntax highlighting
 Plug 'slim-template/vim-slim'
@@ -125,14 +121,31 @@ runtime! configs/plug_cfg/vim-pug.vim
 " RUST highlighting
 Plug 'rust-lang/rust.vim'
 
+" https://github.com/ngmy/vim-rubocop
+" Rubocop
+Plug 'ngmy/vim-rubocop'
+runtime! configs/plug_cfg/vim-rubocop.vim
+
 " fzf
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
 runtime! configs/plug_cfg/fzf.vim
 
+" https://robots.thoughtbot.com/running-specs-from-vim-sent-to-tmux-via-tslime
+Plug 'thoughtbot/vim-rspec'
+Plug 'jgdavey/tslime.vim'
+runtime! configs/plug_cfg/vim-rspec.vim
+
+" https://github.com/tpope/vim-dispatch
+" may end up deleting slime if this does the same type of thing
+Plug 'tpope/vim-dispatch'
+
 " dracula theme
 " https://draculatheme.com/vim/
 Plug 'dracula/vim', { 'as': 'dracula' }
+
+" elixir support
+Plug 'elixir-editors/vim-elixir'
 
 call plug#end()

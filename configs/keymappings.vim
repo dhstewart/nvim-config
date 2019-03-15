@@ -7,6 +7,12 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
 
+" vim-rspec mappings
+map <Leader>qt :call RunCurrentSpecFile()<CR>
+map <Leader>qs :call RunNearestSpec()<CR>
+map <Leader>ql :call RunLastSpec()<CR>
+map <Leader>qa :call RunAllSpecs()<CR>
+
 " easy wrap toggling
 nmap <Leader>w :set wrap!<cr>
 nmap <Leader>W :set nowrap<cr>
