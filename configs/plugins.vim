@@ -41,6 +41,11 @@ Plug 'tpope/vim-unimpaired'
 " editing/compiling ruby in vim
 Plug 'vim-ruby/vim-ruby'
 
+" https://github.com/ElmCast/elm-vim
+" syntax highlighting and more for elm
+" they have lots of recommendations on their github
+Plug 'elmcast/elm-vim'
+
 " https://github.com/vim-airline/vim-airline
 " Status bar in vim
 Plug 'vim-airline/vim-airline'
