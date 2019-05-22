@@ -117,3 +117,7 @@ set foldlevelstart=20
 " This will check the current folder for tags file and keep going one directory
 " up all the way to the root folder.
 set tags=tags;/
+
+syntax enable
+set background=dark
+colorscheme solarized

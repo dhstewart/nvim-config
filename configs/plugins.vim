@@ -146,6 +146,14 @@ runtime! configs/plug_cfg/vim-rspec.vim
 " may end up deleting slime if this does the same type of thing
 Plug 'tpope/vim-dispatch'
 
+" paper color theme
+" https://github.com/NLKNguyen/papercolor-theme
+Plug 'NLKNguyen/papercolor-theme'
+
+" solarized theme
+" https://github.com/altercation/vim-colors-solarized
+Plug 'altercation/vim-colors-solarized'
+
 " dracula theme
 " https://draculatheme.com/vim/
 Plug 'dracula/vim', { 'as': 'dracula' }
