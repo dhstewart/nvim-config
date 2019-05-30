@@ -62,3 +62,7 @@ map <Leader>I gg=G``<cr>
 " insert the path of currently edited file into a command
 " Command mode: Ctrl-P
 cmap <C-S-P> <C-R>=expand("%:p:h") . "/" <cr>
+
+" Open markdown files with Chrome.
+autocmd BufEnter *.md exe 'noremap <F5> :! /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome %:p<CR>'
+

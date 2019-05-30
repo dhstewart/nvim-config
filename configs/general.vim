@@ -120,4 +120,4 @@ set tags=tags;/
 
 syntax enable
 set background=dark
-colorscheme solarized
+colorscheme dracula
