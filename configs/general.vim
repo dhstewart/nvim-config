@@ -122,6 +122,8 @@ syntax enable
 
 set background=dark
 " colorscheme dracula
-colorscheme onehalfdark
-let g:airline_theme='onehalfdark'
+" colorscheme onehalfdark
+colorscheme PaperColor
+" let g:airline_theme='onehalfdark'
+let g:airline_theme='papercolor'
 

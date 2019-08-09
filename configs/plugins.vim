@@ -50,6 +50,9 @@ Plug 'elmcast/elm-vim'
 " Status bar in vim
 Plug 'vim-airline/vim-airline'
 
+" https://github.com/vim-airline/vim-airline-themes
+Plug 'vim-airline/vim-airline-themes'
+
 " https://github.com/ervandew/supertab
 " tab completion
 Plug '/ervandew/supertab'
