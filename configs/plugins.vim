@@ -158,7 +158,37 @@ Plug 'altercation/vim-colors-solarized'
 " https://draculatheme.com/vim/
 Plug 'dracula/vim', { 'as': 'dracula' }
 
+" Atom like theme
+" https://github.com/sonph/onehalf
+Plug 'sonph/onehalf', {'rtp': 'vim/'}
+
+" Floating git windows
+" https://github.com/rhysd/git-messenger.vim
+Plug 'rhysd/git-messenger.vim'
+
 " elixir support
 Plug 'elixir-editors/vim-elixir'
+
+" Async elixir formatting
+Plug 'mhinz/vim-mix-format'
+runtime! configs/plug_cfg/vim-mix-format.vim
+
+" react and JS stuff
+" https://drivy.engineering/setting-up-vim-for-react/
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
+Plug 'mattn/emmet-vim'
+runtime! configs/plug_cfg/emmet.vim
+
+" Async Lint Engine
+Plug 'w0rp/ale'
+
+" Run shell commands in background
+Plug 'skywind3000/asyncrun.vim'
+" runtime! configs/plug_cfg/es-lint.vim
+
+" post install (yarn install | npm install)
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+runtime! configs/plug_cfg/prettier.vim
 
 call plug#end()

@@ -119,5 +119,9 @@ set foldlevelstart=20
 set tags=tags;/
 
 syntax enable
+
 set background=dark
-colorscheme dracula
+" colorscheme dracula
+colorscheme onehalfdark
+let g:airline_theme='onehalfdark'
+
