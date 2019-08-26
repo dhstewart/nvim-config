@@ -176,6 +176,10 @@ Plug 'elixir-editors/vim-elixir'
 Plug 'mhinz/vim-mix-format'
 runtime! configs/plug_cfg/vim-mix-format.vim
 
+" Haxe Plugin
+" https://github.com/jdonaldson/vaxe
+Plug 'jdonaldson/vaxe'
+
 " react and JS stuff
 " https://drivy.engineering/setting-up-vim-for-react/
 Plug 'pangloss/vim-javascript'
