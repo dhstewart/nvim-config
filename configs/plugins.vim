@@ -101,9 +101,9 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'godlygeek/tabular'
 runtime! configs/plug_cfg/tabular.vim
 
-" https://github.com/sjl/gundo.vim
+" https://github.com/mbbill/undotree
 " undo tree visualization
-Plug 'sjl/gundo.vim'
+Plug 'mbbill/undotree'
 
 " https://github.com/tpope/vim-rails
 " rails integration
