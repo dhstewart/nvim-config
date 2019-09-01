@@ -1,1 +1,4 @@
 vim-plug-plugins/
+.netrwhist
+.DS_Store
+
