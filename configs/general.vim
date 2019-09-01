@@ -131,4 +131,3 @@ set background=dark
 colorscheme PaperColor
 " let g:airline_theme='onehalfdark'
 let g:airline_theme='papercolor'
-
