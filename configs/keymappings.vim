@@ -1,12 +1,6 @@
 " Switch between the last two files
 nnoremap <leader><leader> <c-^>
 
-" Quicker window movement
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
-nnoremap <C-h> <C-w>h
-nnoremap <C-l> <C-w>l
-
 " vim-rspec mappings
 map <Leader>qt :call RunCurrentSpecFile()<CR>
 map <Leader>qs :call RunNearestSpec()<CR>
@@ -17,11 +11,11 @@ map <Leader>qa :call RunAllSpecs()<CR>
 nmap <Leader>w :set wrap!<cr>
 nmap <Leader>W :set nowrap<cr>
 
-" mapping the jumping between splits. Hold control while using vim nav.
-nmap <C-J> <C-W>j
-nmap <C-K> <C-W>k
-nmap <C-H> <C-W>h
-nmap <C-L> <C-W>l
+" Easier split navigations
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
 
 " Yank from the cursor to the end of the line, to be consistent with C and D.
 nnoremap Y y$
@@ -47,7 +41,6 @@ map <Leader>I gg=G``<cr>
 " insert the path of currently edited file into a command
 " Command mode: Ctrl-P
 cmap <C-S-P> <C-R>=expand("%:p:h") . "/" <cr>
-
 
 let g:ale_sign_error = '●' " Less aggressive than the default '>>'
 let g:ale_sign_warning = '.'
