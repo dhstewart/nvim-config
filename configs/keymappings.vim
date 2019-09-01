@@ -26,9 +26,6 @@ nmap <C-L> <C-W>l
 " Yank from the cursor to the end of the line, to be consistent with C and D.
 nnoremap Y y$
 
-" clean up trailing whitespace
-map <Leader>c :StripTrailingWhitespaces<cr>
-
 " compress excess whitespace on current line
 map <Leader>e :s/\v(\S+)\s+/\1 /<cr>:nohl<cr>
 
