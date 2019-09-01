@@ -126,8 +126,7 @@ let g:ale_sign_warning = '.'
 let g:ale_lint_on_enter = 0 " Less distracting when opening a new file
 
 set background=dark
-" colorscheme dracula
-" colorscheme onehalfdark
+
 colorscheme PaperColor
-" let g:airline_theme='onehalfdark'
+
 let g:airline_theme='papercolor'
