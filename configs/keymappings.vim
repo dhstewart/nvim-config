@@ -44,3 +44,4 @@ cmap <C-S-P> <C-R>=expand("%:p:h") . "/" <cr>
 
 " Open markdown files with Chrome.
 autocmd BufEnter *.md exe 'noremap <F5> :! /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome %:p<CR>'
+nnoremap <F12> :UndotreeToggle<cr>
