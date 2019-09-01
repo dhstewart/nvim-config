@@ -17,10 +17,6 @@ map <Leader>qa :call RunAllSpecs()<CR>
 nmap <Leader>w :set wrap!<cr>
 nmap <Leader>W :set nowrap<cr>
 
-" insert blank lines without going into insert mode
-nmap go o<esc>
-nmap gO O<esc>
-
 " mapping the jumping between splits. Hold control while using vim nav.
 nmap <C-J> <C-W>j
 nmap <C-K> <C-W>k
