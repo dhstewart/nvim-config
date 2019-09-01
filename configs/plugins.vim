@@ -101,11 +101,6 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'godlygeek/tabular'
 runtime! configs/plug_cfg/tabular.vim
 
-" https://github.com/vim-syntastic/syntastic
-" Error highlighting
-Plug 'vim-syntastic/syntastic'
-runtime! configs/plug_cfg/syntastic.vim
-
 " https://github.com/sjl/gundo.vim
 " undo tree visualization
 Plug 'sjl/gundo.vim'
