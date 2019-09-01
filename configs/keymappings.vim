@@ -17,11 +17,6 @@ map <Leader>qa :call RunAllSpecs()<CR>
 nmap <Leader>w :set wrap!<cr>
 nmap <Leader>W :set nowrap<cr>
 
-" shortcuts for frequenly used files
-nmap gs :e db/schema.rb<cr>
-nmap gr :e config/routes.rb<cr>
-nmap gm :e Gemfile<cr>
-
 " insert blank lines without going into insert mode
 nmap go o<esc>
 nmap gO O<esc>
