@@ -42,9 +42,5 @@ map <Leader>I gg=G``<cr>
 " Command mode: Ctrl-P
 cmap <C-S-P> <C-R>=expand("%:p:h") . "/" <cr>
 
-let g:ale_sign_error = '●' " Less aggressive than the default '>>'
-let g:ale_sign_warning = '.'
-let g:ale_lint_on_enter = 0 " Less distracting when opening a new file
-
 " Open markdown files with Chrome.
 autocmd BufEnter *.md exe 'noremap <F5> :! /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome %:p<CR>'
