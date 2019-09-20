@@ -4,6 +4,9 @@ syntax on
 " default color scheme
 set t_Co=256
 
+" no swapfile screen
+set shortmess+=A
+
 " don't wrap long lines
 set nowrap
 
