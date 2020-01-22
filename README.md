@@ -2,10 +2,9 @@
 
 ### Setup
 
-- install neovim (homebrew)
-
   ```
   brew install neovim
+  brew install ripgrep
   ```
 
 - Install [vim-plug](https://github.com/junegunn/vim-plug)
