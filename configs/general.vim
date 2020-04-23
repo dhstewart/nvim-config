@@ -130,6 +130,9 @@ let g:ale_lint_on_enter = 0 " Less distracting when opening a new file
 
 set background=dark
 
-colorscheme PaperColor
+set termguicolors
+colorscheme gruvbox
 
-let g:airline_theme='papercolor'
+let g:airline_theme='gruvbox'
+
+echo ">^.^< welcome, human!"

@@ -53,6 +53,10 @@ Plug 'vim-airline/vim-airline'
 " https://github.com/vim-airline/vim-airline-themes
 Plug 'vim-airline/vim-airline-themes'
 
+" nuff said
+Plug 'edkolev/tmuxline.vim'
+runtime! configs/plug_cfg/tmuxline.vim
+
 " https://github.com/ervandew/supertab
 " tab completion
 Plug '/ervandew/supertab'
@@ -192,5 +196,14 @@ Plug 'skywind3000/asyncrun.vim'
 " post install (yarn install | npm install)
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 runtime! configs/plug_cfg/prettier.vim
+
+" refactor ruby
+Plug 'ecomba/vim-ruby-refactoring'
+
+" visual spaces
+Plug 'Yggdroot/indentLine'
+
+" gruvbox
+Plug 'morhetz/gruvbox'
 
 call plug#end()
