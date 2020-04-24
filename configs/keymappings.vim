@@ -1,3 +1,6 @@
+let mapleader = "\\"
+let maplocalleader = ","
+
 " Switch between the last two files
 nnoremap <leader><leader> <c-^>
 
