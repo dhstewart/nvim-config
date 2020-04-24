@@ -26,8 +26,9 @@ nnoremap Y y$
 " compress excess whitespace on current line
 map <Leader>e :s/\v(\S+)\s+/\1 /<cr>:nohl<cr>
 
-" delete all buffers
-map <Leader>d :bufdo bd<cr>
+" change background setting
+map <Leader>bgd :set background=dark<cr>
+map <Leader>bgl :set background=light<cr>
 
 " map spacebar to clear search highlight
 nnoremap <Leader><space> :noh<cr>
@@ -47,4 +48,11 @@ cmap <C-S-P> <C-R>=expand("%:p:h") . "/" <cr>
 
 " Open markdown files with Chrome.
 autocmd BufEnter *.md exe 'noremap <F5> :! /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome %:p<CR>'
+
 nnoremap <F12> :UndotreeToggle<cr>
+
+" open keypmappings file
+nnoremap <leader>ev :vsplit ~/.config/nvim/configs/keymappings.vim<cr>
+
+" source vimrc, hopefully this sources the entire nvim configs
+nnoremap <leader>sv :source $MYVIMRC<cr>
