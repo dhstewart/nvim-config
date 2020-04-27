@@ -1,24 +1,14 @@
 let mapleader = "\\"
 let maplocalleader = ","
 
+let g:test#strategy = "tslime"
+
 " Switch between the last two files
 nnoremap <leader><leader> <c-^>
-
-" vim-rspec mappings
-map <Leader>qt :call RunCurrentSpecFile()<CR>
-map <Leader>qs :call RunNearestSpec()<CR>
-map <Leader>ql :call RunLastSpec()<CR>
-map <Leader>qa :call RunAllSpecs()<CR>
 
 " easy wrap toggling
 nmap <Leader>w :set wrap!<cr>
 nmap <Leader>W :set nowrap<cr>
-
-" Easier split navigations
-nnoremap <C-J> <C-W><C-J>
-nnoremap <C-K> <C-W><C-K>
-nnoremap <C-L> <C-W><C-L>
-nnoremap <C-H> <C-W><C-H>
 
 " Yank from the cursor to the end of the line, to be consistent with C and D.
 nnoremap Y y$
@@ -56,3 +46,8 @@ nnoremap <leader>ev :vsplit ~/.config/nvim/configs/keymappings.vim<cr>
 
 " source vimrc, hopefully this sources the entire nvim configs
 nnoremap <leader>sv :source $MYVIMRC<cr>
+
+" ---------- insert mode abbreviations
+
+iabbrev redner render
+iabbrev intialize initialize

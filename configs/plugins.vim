@@ -37,6 +37,13 @@ Plug 'tpope/vim-abolish'
 " insert empty lines with ease
 Plug 'tpope/vim-unimpaired'
 
+" https://github.com/tpope/vim-obsession
+" continuously updated session files
+Plug 'tpope/vim-obsession'
+
+" handle vim sessions, leveragers tpope/vim-obessions
+Plug 'dhruvasagar/vim-prosession'
+
 " https://github.com/vim-ruby/vim-ruby
 " editing/compiling ruby in vim
 Plug 'vim-ruby/vim-ruby'
@@ -52,6 +59,10 @@ Plug 'vim-airline/vim-airline'
 
 " https://github.com/vim-airline/vim-airline-themes
 Plug 'vim-airline/vim-airline-themes'
+
+" https://github.com/christoomey/vim-tmux-navigator
+" seamlessly navigate across vim and tmux splits
+Plug 'christoomey/vim-tmux-navigator'
 
 " nuff said
 Plug 'edkolev/tmuxline.vim'
@@ -139,10 +150,14 @@ Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
 runtime! configs/plug_cfg/fzf.vim
 
-" https://robots.thoughtbot.com/running-specs-from-vim-sent-to-tmux-via-tslime
-Plug 'thoughtbot/vim-rspec'
+" Nice plugin for sending text selection from vim to Tmux. Great for sending
+" specs over
 Plug 'jgdavey/tslime.vim'
-runtime! configs/plug_cfg/vim-rspec.vim
+
+" run all kinds of specs from vim using a strategy setup. I replaced the old
+" thoughtbot vim plugin with this because its much more flexible
+Plug 'janko/vim-test'
+runtime! configs/plug_cfg/vim-test.vim
 
 " https://github.com/tpope/vim-dispatch
 " may end up deleting slime if this does the same type of thing
