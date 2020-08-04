@@ -1,7 +1,10 @@
 let mapleader = "\\"
 let maplocalleader = ","
 
-let g:test#strategy = "tslime"
+" I like tslime better but for some reason after a recent update of tmux
+" and other stuff it just stopped working :(
+" let g:test#strategy = "tslime"
+let g:test#strategy = "neovim"
 
 " Switch between the last two files
 nnoremap <leader><leader> <c-^>
@@ -28,6 +31,7 @@ nnoremap <S-Up> <c-w>+
 nnoremap <S-Down> <c-w>-
 nnoremap <S-Left> <c-w><
 nnoremap <S-Right> <c-w>>
+
 
 " reindent the entire file
 map <Leader>I gg=G``<cr>

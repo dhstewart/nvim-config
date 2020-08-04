@@ -8,3 +8,9 @@
 noremap <Leader>qs :TestNearest<CR>
 noremap <Leader>qt :TestFile<CR>
 noremap <Leader>ql :TestLast<CR>
+
+let test#ruby#rspec#options = {
+  \ 'nearest': '--format documentation',
+  \ 'file':    '--format documentation',
+  \ 'suite':   '--tag ~slow',
+  \}
