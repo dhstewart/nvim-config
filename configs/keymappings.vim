@@ -22,6 +22,10 @@ map <Leader>e :s/\v(\S+)\s+/\1 /<cr>:nohl<cr>
 " change background setting
 map <Leader>bgd :set background=dark<cr>
 map <Leader>bgl :set background=light<cr>
+map <Leader>bgb :highlight Normal guibg=none<cr>
+
+
+" highlight NonText guibg=none
 
 " map spacebar to clear search highlight
 nnoremap <Leader><space> :noh<cr>
@@ -55,3 +59,5 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 
 iabbrev redner render
 iabbrev intialize initialize
+
+iabbrev heve <cr><cr>Co-authored-by: Steve Forse <steve.f@kajabi.com><cr>Co-authored-by: Hunter Stewart <hetre85@gmail.com><esc>
