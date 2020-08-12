@@ -133,6 +133,8 @@ set background=dark
 set termguicolors
 colorscheme gruvbox
 
+highlight Normal guibg=none
+
 let g:airline_theme='gruvbox'
 
 echo ">^.^< welcome, human!"
