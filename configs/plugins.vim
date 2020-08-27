@@ -43,6 +43,7 @@ Plug 'tpope/vim-obsession'
 
 " handle vim sessions, leveragers tpope/vim-obessions
 Plug 'dhruvasagar/vim-prosession'
+runtime! configs/plug_cfg/prosession.vim
 
 " https://github.com/vim-ruby/vim-ruby
 " editing/compiling ruby in vim
