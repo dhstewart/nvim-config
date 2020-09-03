@@ -6,6 +6,9 @@ let maplocalleader = ","
 " let g:test#strategy = "tslime"
 let g:test#strategy = "neovim"
 
+" close buffer without closing a window
+map <leader>q :bp<bar>sp<bar>bn<bar>bd<CR>
+
 " Switch between the last two files
 nnoremap <leader><leader> <c-^>
 
