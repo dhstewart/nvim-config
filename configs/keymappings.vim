@@ -3,8 +3,8 @@ let maplocalleader = ","
 
 " I like tslime better but for some reason after a recent update of tmux
 " and other stuff it just stopped working :(
-" let g:test#strategy = "tslime"
-let g:test#strategy = "neovim"
+let g:test#strategy = "tslime"
+" let g:test#strategy = "neovim"
 
 " close buffer without closing a window
 map <leader>q :bp<bar>sp<bar>bn<bar>bd<CR>
