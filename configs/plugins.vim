@@ -16,6 +16,7 @@ Plug 'tpope/vim-endwise'
 " https://github.com/tpope/vim-fugitive
 " Git integration
 Plug 'tpope/vim-fugitive'
+runtime! configs/plug_cfg/fugitive.vim
 
 " https://github.com/tpope/vim-rhubarb
 " Browse files on Github

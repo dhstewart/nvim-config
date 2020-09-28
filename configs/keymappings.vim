@@ -1,8 +1,6 @@
 let mapleader = "\\"
 let maplocalleader = ","
 
-" I like tslime better but for some reason after a recent update of tmux
-" and other stuff it just stopped working :(
 let g:test#strategy = "tslime"
 " let g:test#strategy = "neovim"
 

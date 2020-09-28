@@ -133,7 +133,7 @@ set background=dark
 set termguicolors
 colorscheme gruvbox
 
-highlight Normal guibg=none
+" highlight Normal guibg=none
 
 let g:airline_theme='gruvbox'
 
