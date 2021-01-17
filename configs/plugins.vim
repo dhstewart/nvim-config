@@ -55,6 +55,10 @@ Plug 'vim-ruby/vim-ruby'
 " they have lots of recommendations on their github
 Plug 'elmcast/elm-vim'
 
+" https://github.com/ekalinin/Dockerfile.vim.git
+" docker syntax highlighting
+Plug 'ekalinin/Dockerfile.vim'
+
 " https://github.com/vim-airline/vim-airline
 " Status bar in vim
 Plug 'vim-airline/vim-airline'
@@ -104,14 +108,23 @@ Plug 'posva/vim-vue'
 Plug 'mileszs/ack.vim'
 runtime! configs/plug_cfg/ack.vim
 
+" Trying to move away from using this one, use vinegar instead
 " https://github.com/scrooloose/nerdtree
 " File tree drawer
-Plug 'scrooloose/nerdtree'
-runtime! configs/plug_cfg/nerdtree.vim
+" Plug 'scrooloose/nerdtree'
+" runtime! configs/plug_cfg/nerdtree.vim
+
+" https://github.com/tpope/vim-vinegar
+" stop using nerdtree
+Plug 'tpope/vim-vinegar'
+
+" https://github.com/tpope/vim-eunuch
+" Vim sugar for the UNIX shell commands that need it the most.
+Plug 'tpope/vim-eunuch'
 
 " https://github.com/Xuyuanp/nerdtree-git-plugin
 " git integration for nerdtree
-Plug 'Xuyuanp/nerdtree-git-plugin'
+" Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " https://github.com/godlygeek/tabular
 " Text alignment
@@ -147,8 +160,7 @@ Plug 'ngmy/vim-rubocop'
 runtime! configs/plug_cfg/vim-rubocop.vim
 
 " fzf
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug '/usr/local/opt/fzf'
+Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 runtime! configs/plug_cfg/fzf.vim
 
@@ -180,6 +192,9 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 " Atom like theme
 " https://github.com/sonph/onehalf
 Plug 'sonph/onehalf', {'rtp': 'vim/'}
+
+" Plug 'arcticicestudio/nord-vim'
+Plug 'arcticicestudio/nord-vim'
 
 " Floating git windows
 " https://github.com/rhysd/git-messenger.vim
