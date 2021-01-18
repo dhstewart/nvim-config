@@ -108,12 +108,6 @@ Plug 'posva/vim-vue'
 Plug 'mileszs/ack.vim'
 runtime! configs/plug_cfg/ack.vim
 
-" Trying to move away from using this one, use vinegar instead
-" https://github.com/scrooloose/nerdtree
-" File tree drawer
-" Plug 'scrooloose/nerdtree'
-" runtime! configs/plug_cfg/nerdtree.vim
-
 " https://github.com/tpope/vim-vinegar
 " stop using nerdtree
 Plug 'tpope/vim-vinegar'
@@ -121,10 +115,6 @@ Plug 'tpope/vim-vinegar'
 " https://github.com/tpope/vim-eunuch
 " Vim sugar for the UNIX shell commands that need it the most.
 Plug 'tpope/vim-eunuch'
-
-" https://github.com/Xuyuanp/nerdtree-git-plugin
-" git integration for nerdtree
-" Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " https://github.com/godlygeek/tabular
 " Text alignment
@@ -176,6 +166,9 @@ runtime! configs/plug_cfg/vim-test.vim
 " https://github.com/tpope/vim-dispatch
 " may end up deleting slime if this does the same type of thing
 Plug 'tpope/vim-dispatch'
+
+" https://github.com/tpope/gem-ctags
+Plug 'tpope/gem-ctags'
 
 " paper color theme
 " https://github.com/NLKNguyen/papercolor-theme
