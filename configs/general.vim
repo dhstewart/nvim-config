@@ -126,4 +126,5 @@ colorscheme nord
 " highlight Normal guibg=none
 
 let g:airline_theme='nord'
+
 echo ">^.^< welcome, human!"

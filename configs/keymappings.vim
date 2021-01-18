@@ -25,6 +25,8 @@ map <Leader>bgd :set background=dark<cr>
 map <Leader>bgl :set background=light<cr>
 map <Leader>bgb :highlight Normal guibg=none<cr>
 
+" auto expand active buffer path in vim command-line prompt
+cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
 
 " highlight NonText guibg=none
 
