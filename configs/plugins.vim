@@ -71,8 +71,8 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'christoomey/vim-tmux-navigator'
 
 " nuff said
-Plug 'edkolev/tmuxline.vim'
-runtime! configs/plug_cfg/tmuxline.vim
+" Plug 'edkolev/tmuxline.vim'
+" runtime! configs/plug_cfg/tmuxline.vim
 
 " https://github.com/ervandew/supertab
 " tab completion
